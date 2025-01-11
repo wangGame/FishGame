@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - border
+  - fish
   layers:
   - Default
   - TransparentFX

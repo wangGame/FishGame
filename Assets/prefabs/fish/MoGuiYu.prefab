@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -5909549575124536499}
   m_Layer: 0
   m_Name: MoGuiYu
-  m_TagString: Untagged
+  m_TagString: fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,8 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d17bd9a3413b8ed42b20b65b86ef3a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 500
   maxNum: 3
   maxSpeed: 4
+  dieObject: {fileID: 7312160400701154845, guid: a6352986dafb55840b61fa6f5280e119, type: 3}
 --- !u!61 &3426380883064470050
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -85,8 +85,10 @@ public class GameController : MonoBehaviour
             bullet.transform.rotation =
                 gunGos[costIndex / 4].transform.Find("firpos").transform.rotation;
             Ef_AutoMove ef = bullet.AddComponent<Ef_AutoMove>();
-            ef.speed = 10f;
+            BulletAttr bulletAttr = bullet.GetComponent<BulletAttr>();
+            ef.speed = bulletAttr.speed;
             ef.dir = Vector3.up;
+            
         }
     }
 }  

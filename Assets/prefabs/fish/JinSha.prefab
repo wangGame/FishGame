@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4502780247762068382}
   m_Layer: 0
   m_Name: JinSha
-  m_TagString: Untagged
+  m_TagString: fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,8 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d17bd9a3413b8ed42b20b65b86ef3a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 1500
   maxNum: 1
   maxSpeed: 5
+  dieObject: {fileID: 2972022403933315203, guid: e1467076fdec1004ab746e5a04782532, type: 3}
 --- !u!61 &-6544218423313693857
 BoxCollider2D:
   m_ObjectHideFlags: 0

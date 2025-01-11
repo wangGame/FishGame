@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -1150782472602191242}
   m_Layer: 0
   m_Name: DengLongyu
-  m_TagString: Untagged
+  m_TagString: fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,8 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d17bd9a3413b8ed42b20b65b86ef3a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 100
   maxNum: 6
   maxSpeed: 5
+  dieObject: {fileID: 9164751776670678351, guid: 7210487a2db215746b5bb1fbc5aa033d, type: 3}
 --- !u!61 &6213649341779456107
 BoxCollider2D:
   m_ObjectHideFlags: 0

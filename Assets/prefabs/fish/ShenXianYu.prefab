@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -6971582379949287702}
   m_Layer: 0
   m_Name: ShenXianYu
-  m_TagString: Untagged
+  m_TagString: fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,8 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d17bd9a3413b8ed42b20b65b86ef3a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 100
   maxNum: 6
   maxSpeed: 5
+  dieObject: {fileID: 1300669274042207052, guid: 60449b5e11dbc3c418068ea824d159c6, type: 3}
 --- !u!61 &-6959870793890004142
 BoxCollider2D:
   m_ObjectHideFlags: 0
