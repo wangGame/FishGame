@@ -128,6 +128,9 @@ MonoBehaviour:
   maxNum: 6
   maxSpeed: 5
   dieObject: {fileID: 1300669274042207052, guid: 60449b5e11dbc3c418068ea824d159c6, type: 3}
+  exp: 80
+  gold: 60
+  goldCoinPrafab: {fileID: 3959824587591964088, guid: 078174cadec691741b4db0ba78b35e2f, type: 3}
 --- !u!61 &-6959870793890004142
 BoxCollider2D:
   m_ObjectHideFlags: 0
